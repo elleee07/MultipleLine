@@ -3,9 +3,9 @@
 
 # MULTIPLE LINE 
 
-# to open and mylife.txt as text file
+# to open and write mylife.txt as text file
 with open("mylife.txt", "w") as text_file:
     # input line text
-    
+
 
     print()
