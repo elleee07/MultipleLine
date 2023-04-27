@@ -14,3 +14,5 @@ with open("mylife.txt", "w") as text_file:
         # to ask for lines 
         ask_more_lines = input("Do you want to input another text line? (yes/no) ")
         # break
+        if ask_more_lines != 'yes':
+            break
