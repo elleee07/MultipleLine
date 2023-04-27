@@ -11,9 +11,6 @@ with open("mylife.txt", "w") as text_file:
         input_line = input("Input any text line that you want to write: ")
         # to write it at the text file
         text_file.write(input_line + "\n")
-    #
-
-
-
-
-    print()
+        # to ask for lines 
+        ask_more_lines = input("Do you want to input another text line? (yes/no) ")
+        # break
